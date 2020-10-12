@@ -1,0 +1,43 @@
+.todoHeader {
+  border: 1px solid #c5c5c5;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.todoHeader h1 {
+    text-align: center;
+    color: #100873;
+    margin-top: 0;
+}
+
+.todoHeader textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c5c5c5;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.todoHeader button {
+    border: 1px solid #100873;
+    color: #100873;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 18px;
+    transition-duration: .35s;
+    cursor: pointer;
+}
+
+.todoHeader button:hover {
+    background-color: #100873;
+    color: #fff;
+}
+
+* {
+    outline: none;
+}
